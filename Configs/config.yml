@@ -3,9 +3,9 @@ save_freq: 5
 device: "cuda"
 epochs: 100
 batch_size: 8
-pretrained_model: "/home/projects/styletts/Utils/ASR/epoch_00045.pth"
-train_data: "Data/train_no_phones.txt"
-val_data: "Data/val_no_phones.txt"
+pretrained_model: "epoch_00045.pth"
+train_data: "/content/Data/train_asr.txt"
+val_data: "/content/Data/train_asr.txt"
 
 
 preprocess_parasm:
