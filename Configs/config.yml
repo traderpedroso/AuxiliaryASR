@@ -1,8 +1,8 @@
 log_dir: "checkpoint"
-save_freq: 5
+save_freq: 10
 device: "cuda"
 epochs: 100
-batch_size: 8
+batch_size: 64
 pretrained_model: "epoch_00045.pth"
 train_data: "/content/Data/train_asr.txt"
 val_data: "/content/Data/train_asr.txt"
